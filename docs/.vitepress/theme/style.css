@@ -1,0 +1,20 @@
+:root {
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #0d9488;
+  --vp-c-brand-3: #14b8a6;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0f766e 0%, #2563eb 58%, #7c3aed 100%);
+  --vp-font-family-base: "Inter", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.VPHomeHero .text {
+  max-width: 820px;
+}
+
+.VPHomeHero .tagline {
+  max-width: 720px;
+}
+
+.VPFeature {
+  border-radius: 8px;
+}
