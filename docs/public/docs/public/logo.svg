@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge base logo</title>
+  <desc id="desc">A simple book and spark mark.</desc>
+  <rect width="128" height="128" rx="24" fill="#0f766e"/>
+  <path d="M31 34c0-5 4-9 9-9h48c5 0 9 4 9 9v68c0 3-2 5-5 5H39c-4 0-8-3-8-8V34Z" fill="#f8fafc"/>
+  <path d="M43 25v69c0 3 2 5 5 5h49" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M56 48h26M56 64h20" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  <path d="M91 30l3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#facc15"/>
+</svg>
