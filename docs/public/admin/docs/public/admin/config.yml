@@ -1,0 +1,49 @@
+backend:
+  name: github
+  repo: 100759/vitepress-decapcms-knowledge-base
+  branch: main
+  # Cloudflare Pages needs a GitHub OAuth proxy for production CMS login.
+  # base_url: https://your-oauth-proxy.example.com
+  # auth_endpoint: auth
+
+local_backend: true
+media_folder: docs/public/images/uploads
+public_folder: /images/uploads
+
+site_url: https://vitepress-decapcms-knowledge-base.pages.dev
+display_url: https://vitepress-decapcms-knowledge-base.pages.dev
+logo_url: /logo.svg
+
+locale: zh_Hans
+
+collections:
+  - name: knowledge
+    label: 知识条目
+    label_singular: 知识条目
+    folder: docs/knowledge/articles
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    summary: "{{title}}"
+    fields:
+      - label: 标题
+        name: title
+        widget: string
+      - label: 摘要
+        name: description
+        widget: text
+        required: false
+      - label: 发布日期
+        name: date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+      - label: 标签
+        name: tags
+        widget: list
+        required: false
+      - label: 正文
+        name: body
+        widget: markdown
