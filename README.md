@@ -36,7 +36,7 @@ http://localhost:5173/admin/
 3. 打开 `docs/public/admin/config.yml`，替换：
 
 ```yaml
-repo: your-github-username/your-repo-name
+repo: 100759/vitepress-decapcms-knowledge-base
 ```
 
 如果仓库默认分支不是 `main`，也要同步修改 `branch`。
@@ -62,7 +62,7 @@ Decap CMS 的 GitHub 后端需要 OAuth 登录。部署在 Cloudflare Pages 时�
 ```yaml
 backend:
   name: github
-  repo: your-github-username/your-repo-name
+  repo: 100759/vitepress-decapcms-knowledge-base
   branch: main
   base_url: https://your-oauth-proxy.example.com
   auth_endpoint: auth
